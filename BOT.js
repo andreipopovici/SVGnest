@@ -11,7 +11,7 @@ function check () {
 
 $(document).ready(function () {
   $('#demo').click()
-  $('#svg2 rect:first-child').click()
+  $('#svg2 rect').last().click()
   $('#start').click()
   check()
 })
